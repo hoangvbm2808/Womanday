@@ -1,85 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Question Page</title>
-<style>
-  body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    padding-top: 50px;
-  }
-  .question {
-    font-size: 24px;
-    margin-bottom: 20px;
-  }
-  .button {
-    display: inline-block;
-    padding: 10px 20px;
-    margin: 0 10px;
-    font-size: 18px;
-    cursor: pointer;
-    transition: transform 0.3s ease;
-  }
-  .button:hover {
-    transform: scale(1.1);
-  }
-  .hidden {
-    display: none;
-  }
-  .green {
-    background-color: green;
-    color: white;
-  }
-  .red {
-    background-color: red;
-    color: black;
-  }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="t.css">
+    <link rel="stylesheet" href="t2.css">
 </head>
+
+
 <body>
 
-    <img src="./image.jpg" id="image" class="hidden" width="300" height="700">
 
-<p class="question">Nhi có yêu Hoàng không?</p>
-<button class="button green text-center" id="yesButton" onclick="showImage()">Yes</button>
-<button class="button red text-center" id="noButton" onclick="toggleButtons()">không</button>
+    <!-- end chest -->
+    <audio controls hidden>
+        <source src="audio.mp3" type="audio/mpeg">
+      </audio>
 
-<script>
-let isButtonToggled = false;
+    <div class="c content"> MY BABY LOVE YOU SO MUCH FOREVER YOU AND I
+        !!!
+        I LOVE YOU OH I LOVE YOU SO MUCH FOREVER YOU AND I
+    </div>
 
-function showImage() {
-  document.getElementById('image').classList.remove('hidden');
-}
+    
 
-function toggleButtons() {
-  const yesButton = document.getElementById('yesButton');
-  const noButton = document.getElementById('noButton');
+    <div id="heart" hidden>
+        <!-- effects -->
+        <div class="spark spark-1">
+            <svg viewBox="0 0 32 29.6" width="80px" fill="#fff">
+                <path d="M23.4,0c-3.3,0-6.1,1.8-7.4,4.5C14.7,1.8,11.9,0,8.6,0C3.8,0,0,3.9,0,8.8c0,7.3,11.2,12.3,15.3,20.5C20.5,21.1,32,15.6,32,8.8
+            C32,3.9,28.2,0,23.4,0z" />
+            </svg>
+        </div>
 
-  const currentWidth = parseFloat(window.getComputedStyle(yesButton).width);
-  const currentHeight = parseFloat(window.getComputedStyle(yesButton).height);
+        <div class="spark spark-2">
+            <svg viewBox="0 0 32 29.6" width="80px" fill="#fff">
+                <path d="M23.4,0c-3.3,0-6.1,1.8-7.4,4.5C14.7,1.8,11.9,0,8.6,0C3.8,0,0,3.9,0,8.8c0,7.3,11.2,12.3,15.3,20.5C20.5,21.1,32,15.6,32,8.8
+            C32,3.9,28.2,0,23.4,0z" />
+            </svg>
+        </div>
+        <div class="spark spark-3">
+            <svg viewBox="0 0 32 29.6" width="80px" fill="#fff">
+                <path d="M23.4,0c-3.3,0-6.1,1.8-7.4,4.5C14.7,1.8,11.9,0,8.6,0C3.8,0,0,3.9,0,8.8c0,7.3,11.2,12.3,15.3,20.5C20.5,21.1,32,15.6,32,8.8
+            C32,3.9,28.2,0,23.4,0z" />
+            </svg>
+        </div>
+        <div class="spark spark-4">
+            <svg viewBox="0 0 32 29.6" width="80px" fill="#fff">
+                <path d="M23.4,0c-3.3,0-6.1,1.8-7.4,4.5C14.7,1.8,11.9,0,8.6,0C3.8,0,0,3.9,0,8.8c0,7.3,11.2,12.3,15.3,20.5C20.5,21.1,32,15.6,32,8.8
+            C32,3.9,28.2,0,23.4,0z" />
+            </svg>
+        </div>
 
-  // Update the width and height of the yesButton
-  const newWidth = currentWidth + 10;
-  const newHeight = currentHeight + 10;
-  yesButton.style.width = `${newWidth}px`;
-  yesButton.style.height = `${newHeight}px`;
+        <div class="spark spark-5">
+            <svg viewBox="0 0 32 29.6" width="80px" fill="#fff">
+                <path d="M23.4,0c-3.3,0-6.1,1.8-7.4,4.5C14.7,1.8,11.9,0,8.6,0C3.8,0,0,3.9,0,8.8c0,7.3,11.2,12.3,15.3,20.5C20.5,21.1,32,15.6,32,8.8
+            C32,3.9,28.2,0,23.4,0z" />
+            </svg>
+        </div>
+        <div class="spark spark-6">
+            <svg viewBox="0 0 32 29.6" width="80px" fill="#fff">
+                <path d="M23.4,0c-3.3,0-6.1,1.8-7.4,4.5C14.7,1.8,11.9,0,8.6,0C3.8,0,0,3.9,0,8.8c0,7.3,11.2,12.3,15.3,20.5C20.5,21.1,32,15.6,32,8.8
+            C32,3.9,28.2,0,23.4,0z" />
+            </svg>
+        </div>
+        <div class="spark spark-7">
+            <svg viewBox="0 0 32 29.6" width="80px" fill="#fff">
+                <path d="M23.4,0c-3.3,0-6.1,1.8-7.4,4.5C14.7,1.8,11.9,0,8.6,0C3.8,0,0,3.9,0,8.8c0,7.3,11.2,12.3,15.3,20.5C20.5,21.1,32,15.6,32,8.8
+            C32,3.9,28.2,0,23.4,0z" />
+            </svg>
+        </div>
 
-  const currentWidthno = parseFloat(window.getComputedStyle(noButton).width);
-  const currentHeightno = parseFloat(window.getComputedStyle(noButton).height);
-
-  // Update the width and height of the noButton
-  const newWidthno = currentWidthno - 10;
-  const newHeightnp = currentHeightno - 10;
-  noButton.style.width = `${newWidthno}px`;
-  noButton.style.height = `${newHeightnp}px`;
-
-  // Adjust font size of buttons
-  yesButton.style.fontSize = parseFloat(window.getComputedStyle(yesButton).fontSize) + 2 + 'px';
-  noButton.style.fontSize = parseFloat(window.getComputedStyle(noButton).fontSize) - 2 + 'px';
-}
-</script>
-
+        <div class="dust dust-1 white"></div>
+        <div class="dust dust-2 yellow"></div>
+        <div class="dust dust-3 yellow"></div>
+        <div class="dust dust-4 white"></div>
+        <div class="dust dust-5 white"></div>
+        <div class="dust dust-6 yellow"></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="t2.js"></script>
 </body>
+
 </html>

@@ -1,88 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi" class="no-js">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Womanday</title>
+		<link rel="shortcut icon" href="./rose.png">
+		<link rel="stylesheet" href="https://use.typekit.net/eqx3jwb.css">
+		<link rel="stylesheet" type="text/css" href="./style.css">
+		<script>document.documentElement.className = "js";
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="t.css">
-    <link rel="stylesheet" href="t2.css">
-</head>
+var supportsCssVars = function supportsCssVars() {
+  var e,
+      t = document.createElement("style");
+  return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e;
+};
 
-
-<body>
-
-
-    <!-- end chest -->
-    <audio controls hidden>
-        <source src="audio.mp3" type="audio/mpeg">
-      </audio>
-
-    <div class="c content"> MY BABY LOVE YOU SO MUCH FOREVER YOU AND I
-        !!!
-        I LOVE YOU OH I LOVE YOU SO MUCH FOREVER YOU AND I
-    </div>
-
-    
-
-    <div id="heart" hidden>
-        <!-- effects -->
-        <div class="spark spark-1">
-            <svg viewBox="0 0 32 29.6" width="80px" fill="#fff">
-                <path d="M23.4,0c-3.3,0-6.1,1.8-7.4,4.5C14.7,1.8,11.9,0,8.6,0C3.8,0,0,3.9,0,8.8c0,7.3,11.2,12.3,15.3,20.5C20.5,21.1,32,15.6,32,8.8
-            C32,3.9,28.2,0,23.4,0z" />
-            </svg>
-        </div>
-
-        <div class="spark spark-2">
-            <svg viewBox="0 0 32 29.6" width="80px" fill="#fff">
-                <path d="M23.4,0c-3.3,0-6.1,1.8-7.4,4.5C14.7,1.8,11.9,0,8.6,0C3.8,0,0,3.9,0,8.8c0,7.3,11.2,12.3,15.3,20.5C20.5,21.1,32,15.6,32,8.8
-            C32,3.9,28.2,0,23.4,0z" />
-            </svg>
-        </div>
-        <div class="spark spark-3">
-            <svg viewBox="0 0 32 29.6" width="80px" fill="#fff">
-                <path d="M23.4,0c-3.3,0-6.1,1.8-7.4,4.5C14.7,1.8,11.9,0,8.6,0C3.8,0,0,3.9,0,8.8c0,7.3,11.2,12.3,15.3,20.5C20.5,21.1,32,15.6,32,8.8
-            C32,3.9,28.2,0,23.4,0z" />
-            </svg>
-        </div>
-        <div class="spark spark-4">
-            <svg viewBox="0 0 32 29.6" width="80px" fill="#fff">
-                <path d="M23.4,0c-3.3,0-6.1,1.8-7.4,4.5C14.7,1.8,11.9,0,8.6,0C3.8,0,0,3.9,0,8.8c0,7.3,11.2,12.3,15.3,20.5C20.5,21.1,32,15.6,32,8.8
-            C32,3.9,28.2,0,23.4,0z" />
-            </svg>
-        </div>
-
-        <div class="spark spark-5">
-            <svg viewBox="0 0 32 29.6" width="80px" fill="#fff">
-                <path d="M23.4,0c-3.3,0-6.1,1.8-7.4,4.5C14.7,1.8,11.9,0,8.6,0C3.8,0,0,3.9,0,8.8c0,7.3,11.2,12.3,15.3,20.5C20.5,21.1,32,15.6,32,8.8
-            C32,3.9,28.2,0,23.4,0z" />
-            </svg>
-        </div>
-        <div class="spark spark-6">
-            <svg viewBox="0 0 32 29.6" width="80px" fill="#fff">
-                <path d="M23.4,0c-3.3,0-6.1,1.8-7.4,4.5C14.7,1.8,11.9,0,8.6,0C3.8,0,0,3.9,0,8.8c0,7.3,11.2,12.3,15.3,20.5C20.5,21.1,32,15.6,32,8.8
-            C32,3.9,28.2,0,23.4,0z" />
-            </svg>
-        </div>
-        <div class="spark spark-7">
-            <svg viewBox="0 0 32 29.6" width="80px" fill="#fff">
-                <path d="M23.4,0c-3.3,0-6.1,1.8-7.4,4.5C14.7,1.8,11.9,0,8.6,0C3.8,0,0,3.9,0,8.8c0,7.3,11.2,12.3,15.3,20.5C20.5,21.1,32,15.6,32,8.8
-            C32,3.9,28.2,0,23.4,0z" />
-            </svg>
-        </div>
-
-        <div class="dust dust-1 white"></div>
-        <div class="dust dust-2 yellow"></div>
-        <div class="dust dust-3 yellow"></div>
-        <div class="dust dust-4 white"></div>
-        <div class="dust dust-5 white"></div>
-        <div class="dust dust-6 yellow"></div>
-    </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
-        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="t2.js"></script>
-</body>
+supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+	</head>
+	<body class="demo-1 loading">
+		<main>
+			<div class="message">Xem bằng laptop để xinh đẹp nhất.</div>
+			<div class="frame">
+			</div>
+			<div class="content">
+				<div class="grid">
+					<div class="grid__item pos-2"><div class="grid__item-img" style="background-image:url(./img1.jpg);" class="hover" ></div></div>
+					<div class="grid__item pos-3"><div class="grid__item-img" style="background-image:url(./img3.jpg);" class="hover"></div></div>
+					<div class="grid__item pos-4"><div class="grid__item-img" style="background-image:url(./img2.jpg);" class="hover"></div></div>
+					<div class="grid__item pos-1"><div class="grid__item-img" style="background-image:url(./img4.jpg);" class="hover"></div></div>
+					<div class="grid__item pos-5"><div class="grid__item-img" style="background-image:url(./img8.jpg);" class="hover"></div></div>
+					<div class="grid__item pos-6"><div class="grid__item-img" style="background-image:url(./img6.jpg);" class="hover"></div></div>
+					<div class="grid__item pos-7"><div class="grid__item-img" style="background-image:url(./img7.jpg);" class="hover"></div></div>
+					<div class="grid__item pos-8"><div class="grid__item-img" style="background-image:url(./img5.jpg);" class="hover"></div></div>
+					<div class="grid__item pos-9"><div class="grid__item-img" style="background-image:url(./img9.jpg);" class="hover"></div></div>
+					<div class="grid__item pos-10"><div class="grid__item-img" style="background-image:url(./img10.jpg);" class="hover"></div></div>
+				</div>
+                <h2 class="content__title no-select">
+					<span>Minh Hoàng</span>
+				</h2>
+				<h2 class="content__title no-select">
+					<span class="content__title-sub">Chúc các Chị hạnh phúc và mãi xinh đẹp !!!</span>
+				</h2>
+			</div>
+		</main>
+        <svg class="cursor" width="80" height="80" viewBox="0 0 80 80">
+			<circle class="cursor__inner" cx="40" cy="40" r="20"></circle>
+		</svg>
+		<script src="./script.js"></script>
+	</body>
 
 </html>
